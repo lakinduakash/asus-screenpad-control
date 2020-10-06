@@ -97,10 +97,11 @@ int initUi(int argc, char *argv[]){
     /* Connect signal handlers to the constructed widgets. */
     window = gtk_builder_get_object(builder, "window");
 
-   scale = (GtkScale *) gtk_builder_get_object(builder, "brightness_controle_scale");
-   error_label = (GtkLabel *) gtk_builder_get_object(builder, "error_label");
+    scale = (GtkScale *) gtk_builder_get_object(builder, "brightness_controle_scale");
+    error_label = (GtkLabel *) gtk_builder_get_object(builder, "error_label");
 
-   g_signal_connect(scale, "value-changed", G_CALLBACK(on_slider_value_changed), NULL);
+    g_signal_connect (window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
+    g_signal_connect(scale, "value-changed", G_CALLBACK(on_slider_value_changed), NULL);
 
     setup_ui();
 
