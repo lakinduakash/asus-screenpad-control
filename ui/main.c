@@ -1,5 +1,8 @@
-//
-// Created by lakindu on 2020-08-09.
-//
+#include "ui.h"
 
-#include "main.h"
+int
+main (int argc, char *argv[])
+{
+  initUi(argc, argv);
+  return 0;
+}
