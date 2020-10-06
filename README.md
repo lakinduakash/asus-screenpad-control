@@ -45,7 +45,7 @@ Then build and install by executing following commands.
 ## Running
 You can run it from terminal or from application menu.
 
-**Note:** When you use it firstime without rebooting make sure to execute `sudo chmod a+w '/sys/class/leds/asus::screenpad/brightness'`. Otherwise application may not have enough permission to control screenpad.
+**Note:** When you use it first time without rebooting make sure to execute `sudo chmod a+w '/sys/class/leds/asus::screenpad/brightness'`. Otherwise application may not have enough permission to control screenpad.
 
 Run in terminal
  `screenpad-control`

@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo chmod a+w '/sys/class/leds/asus::screenpad/brightness'
+/usr/bin/chmod a+w '/sys/class/leds/asus::screenpad/brightness'
 exit 0

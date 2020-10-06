@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Sreenpad Control
+Icon=asus-screenpad-control
+Exec=screenpad-control %U
+Terminal=false
+Categories=System
+Keywords=Brigtness;Screenpad;ASUS;Display
