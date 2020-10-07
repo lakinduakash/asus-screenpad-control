@@ -4,6 +4,8 @@ This repository contains a version of the asus-wmi module with support for brigh
 
 Additinaly this provides a simple GUI application to control bightness with a slider.
 
+![screenshot](docs/screenshot1.png)
+
 ## Build and Install
 
 1. First you need to build the install the kernal module. For that please [read here](https://github.com/lakinduakash/asus-screenpad-control/blob/main/asus-wmi-screenpad/README.md)
