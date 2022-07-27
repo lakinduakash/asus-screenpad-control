@@ -1,0 +1,5 @@
+#Run at startup
+
+#!/bin/bash
+/usr/bin/chmod a+w '/sys/class/leds/asus::screenpad/brightness'
+exit 0
